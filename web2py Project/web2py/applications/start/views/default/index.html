@@ -1,0 +1,85 @@
+{{extend 'layout.html'}}
+
+{{block head}}
+<script src="{{=URL('static', 'js/vue.js')}}"></script>
+<script>
+    var images_url = "{{=URL('api', 'get_images')}}";
+    var get_user_url = "{{=URL('api', 'get_user')}}";
+    var add_image_url = "{{=URL('api', 'add_image', user_signature=True)}}";
+    var del_image_url = "{{=URL('api', 'del_image', user_signature=True)}}";
+    var toggle_fav_url = "{{=URL('api', 'toggle_favorite', user_signature=True)}}";
+    var add_fav_url = "{{=URL('api', 'add_favorite', user_signature=True)}}";
+    var toggle_up_url = "{{=URL('api', 'toggle_upvote', user_signature=True)}}";
+    var add_up_url = "{{=URL('api', 'add_upvote', user_signature=True)}}";
+    var toggle_down_url = "{{=URL('api', 'toggle_downvote', user_signature=True)}}";
+    var add_down_url = "{{=URL('api', 'add_down', user_signature=True)}}";
+    var get_ratings_url = "{{=URL('api', 'get_ratings', user_signature=True)}}";
+</script>
+{{end}}
+
+<div class="main_content" style="background-color:A0B9BA;">
+
+    
+    
+    <div id="vue-div" class="display:none">
+        <div class="container padded">
+        <!-- Your code goes here.  Remember to call $("#vue-div").show() once you get the data for the first time. -->
+            <div class="twothirds container">
+                <h2 style="text-align:center; color:red;">Welcome to Project Cheer
+                    <p style="margin-left:22%; margin-right:22%; margin-top:20px; font-size:100%; font-size:50%; color:blue;">This is where project_site description will be. Hi, we are Project Cheer. On this site
+                        you will find an assortment of items intended to cheer you up when you need it. Through extensive research, our team has found that animal photos
+                        are the best internet staple of happiness inducing content. As a result, You will find that the main content of our site is categories of animal photos.
+                        <br> On this home page you will get a sample of the content that we offer in addition to a few different things such as links to other sites with content
+                        to brighten your day. Contact Us:
+                            <a href="mailto:mlau10@ucsc.edu" target="_top">Send Mail</a>
+                    </p>
+
+
+                    <div class="container compressable">
+                        <h3 class="twothirds front_page_img" style="font-size:80%">Our Image of the Moment</h3>
+						<img v-bind:src="images[0].image_url" height="500px" width="auto" class="padded"/>
+                        <div id="cart_list" class="image_container">
+                        <!-- Put here the code to display the images -->
+                            <ul class="container">
+                            <!-- The following is an example-->
+                                <li class="card lifted padded quarter">
+                                    <!--search for darn toggling -->
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </h2>
+
+            </div>
+
+
+            <div class="user_space quarter right">
+                <!-- Right part of the page -->
+                <table class="fill" id="user_selector">
+                    <tbody>
+                        <tr class="center" style="margin-top:200px; color:blue;">
+                            <!-- This row is you; code for getting your own images, and for setting self_page -->
+                            <a class="btn fuchsia rounded" href="{{=URL('default', 'animal_select')}}" style="font-size:150%; margin-right:50%"><i class="fa fa-paw"></i>Animals</a>
+                        </tr>
+                      <!-- Then, one row for each person. -->
+                    </tbody>
+                </table>
+
+            </div>
+            <div class="reult_table">
+                <div class="checklist text-left checklist-content" style="background-color:powderblue; border:30px; border-color:gray; margin-right:20%; margin-left:20%">
+                    <div>
+                        <p style="text-align:center; color:purple;font-weight:bold;">Here are some nice links to other places with positive content just for you!<br><br></p>
+                        <a href="https://www.huffingtonpost.com/topic/good-news" style="color:blue;">Visit the Huffington Post's good news section!<br></a>
+                        <a href="https://youtu.be/Y73jjPOiePc" style="color:blue;">Remember Vines? Youtube sure does. Check this video out and get lost in the depths of Youtube.</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </div>
+
+</div>
+
+<script src="{{=URL('static', 'js/default_index.js')}}"></script>

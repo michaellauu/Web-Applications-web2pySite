@@ -1,0 +1,362 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="95b3f94e-19e2-4832-9889-839002e80a10" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/applications/start/views/default/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="481">
+              <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>(&quot;#vue-div&quot;).</find>
+      <find>(&quot;#vue-div&quot;)</find>
+      <find>vue-div</find>
+      <find>get_</find>
+      <find>get_user</find>
+      <find>edit_post</find>
+      <find>post</find>
+      <find>checklist_content</find>
+      <find>checklist_title</find>
+      <find>content</find>
+      <find>title</find>
+      <find>checklist_listing</find>
+      <find>checklist</find>
+      <find>memo</find>
+      <find>created</find>
+      <find>creat</find>
+      <find>crea</find>
+      <find>create</find>
+      <find>idx</find>
+      <find>logged</find>
+      <find>count</find>
+      <find>logged_in</find>
+      <find>stripe_instance</find>
+      <find>container</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>post</replace>
+      <replace>checklist</replace>
+      <replace>memo</replace>
+      <replace>title</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/applications/start" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/applications/start/views/default/toggle_public.html" />
+        <option value="$PROJECT_DIR$/applications/start/views/default/delete.html" />
+        <option value="$PROJECT_DIR$/applications/start/controllers/default.py" />
+        <option value="$PROJECT_DIR$/applications/start/static/css/myapp.css" />
+        <option value="$PROJECT_DIR$/applications/test/controllers/api.py" />
+        <option value="$PROJECT_DIR$/applications/test/controllers/default.py" />
+        <option value="$PROJECT_DIR$/applications/test/models/tables.py" />
+        <option value="$PROJECT_DIR$/applications/test/views/default/index.html" />
+        <option value="$PROJECT_DIR$/applications/school/views/default/index.html" />
+        <option value="$PROJECT_DIR$/applications/school/models/tables.py" />
+        <option value="$PROJECT_DIR$/applications/school/controllers/api.py" />
+        <option value="$PROJECT_DIR$/applications/vue/controllers/default.py" />
+        <option value="$PROJECT_DIR$/applications/vue/static/css/myapp.css" />
+        <option value="$PROJECT_DIR$/applications/vue/models/tables.py" />
+        <option value="$PROJECT_DIR$/applications/vue/static/js/default_index.js" />
+        <option value="$PROJECT_DIR$/applications/vue/controllers/api.py" />
+        <option value="$PROJECT_DIR$/applications/vue/views/default/index.html" />
+        <option value="$PROJECT_DIR$/applications/start/models/tables.py" />
+        <option value="$PROJECT_DIR$/applications/start/controllers/api.py" />
+        <option value="$PROJECT_DIR$/applications/start/views/default/index.html" />
+        <option value="$PROJECT_DIR$/applications/start/static/js/default_index.js" />
+        <option value="$PROJECT_DIR$/applications/5/models/tables.py" />
+        <option value="$PROJECT_DIR$/applications/5/static/css/myapp.css" />
+        <option value="$PROJECT_DIR$/applications/5/controllers/api.py" />
+        <option value="$PROJECT_DIR$/applications/5/static/js/default_index.js" />
+        <option value="$PROJECT_DIR$/applications/5/views/default/index.html" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="128" />
+    <option name="y" value="61" />
+    <option name="width" value="1703" />
+    <option name="height" value="1100" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="web2py" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web2py" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web2py" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web2py" type="462c0819:PsiDirectoryNode" />
+              <item name="applications" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web2py" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web2py" type="462c0819:PsiDirectoryNode" />
+              <item name="applications" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web2py" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web2py" type="462c0819:PsiDirectoryNode" />
+              <item name="applications" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="web2py" type="b2602c69:ProjectViewProjectNode" />
+              <item name="web2py" type="462c0819:PsiDirectoryNode" />
+              <item name="applications" type="462c0819:PsiDirectoryNode" />
+              <item name="start" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="default" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="95b3f94e-19e2-4832-9889-839002e80a10" name="Default" comment="" />
+      <created>1524536372536</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1524536372536</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="128" y="61" width="1703" height="1100" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3283936" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Python Console" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
+    </layout>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/applications/vue/models/tables.py" />
+    <entry file="file://$PROJECT_DIR$/applications/vue/views/default/index.html" />
+    <entry file="file://$PROJECT_DIR$/applications/school/controllers/api.py" />
+    <entry file="file://$PROJECT_DIR$/applications/school/models/tables.py" />
+    <entry file="file://$PROJECT_DIR$/applications/school/static/js/default_index.js" />
+    <entry file="file://$PROJECT_DIR$/applications/school/views/default/index.html" />
+    <entry file="file://$PROJECT_DIR$/applications/test/controllers/api.py" />
+    <entry file="file://$PROJECT_DIR$/applications/test/models/tables.py" />
+    <entry file="file://$PROJECT_DIR$/applications/test/views/default/index.html" />
+    <entry file="file://$PROJECT_DIR$/applications/start/controllers/default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/start/static/css/myapp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/start/models/tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/start/views/default/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/start/controllers/default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/start/static/css/myapp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/start/models/tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/start/views/default/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="27" selection-start-line="52" selection-start-column="27" selection-end-line="52" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/start/controllers/default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="952">
+          <caret line="56" column="39" selection-start-line="56" selection-start-column="39" selection-end-line="56" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/start/models/tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="59" selection-start-line="20" selection-start-column="59" selection-end-line="20" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/start/views/default/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="35" lean-forward="true" selection-start-line="21" selection-start-column="35" selection-end-line="21" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/start/views/default/toggle_public.html" />
+    <entry file="file://$PROJECT_DIR$/applications/start/static/css/custom.css.bak" />
+    <entry file="file://$PROJECT_DIR$/applications/start/controllers/appadmin.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-510" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/start/models/db.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-595" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/start/views/default/delete.html" />
+    <entry file="file://$PROJECT_DIR$/applications/start/views/default/edit.html" />
+    <entry file="file://$PROJECT_DIR$/applications/start/controllers/default.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1054">
+          <caret line="62" column="22" selection-start-line="62" selection-start-column="22" selection-end-line="62" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/start/static/css/myapp.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/test/controllers/default.py" />
+    <entry file="file://$PROJECT_DIR$/applications/test/views/default/index.html" />
+    <entry file="file://$PROJECT_DIR$/applications/test/models/tables.py" />
+    <entry file="file://$PROJECT_DIR$/applications/test/controllers/api.py" />
+    <entry file="file://$PROJECT_DIR$/applications/school/models/tables.py" />
+    <entry file="file://$PROJECT_DIR$/applications/school/controllers/api.py" />
+    <entry file="file://$PROJECT_DIR$/applications/school/views/default/index.html" />
+    <entry file="file://$PROJECT_DIR$/applications/school/static/js/default_index.js" />
+    <entry file="file://$PROJECT_DIR$/applications/vue/controllers/default.py" />
+    <entry file="file://$PROJECT_DIR$/applications/vue/static/css/myapp.css" />
+    <entry file="file://$PROJECT_DIR$/applications/vue/models/tables.py" />
+    <entry file="file://$PROJECT_DIR$/applications/vue/static/js/default_index.js" />
+    <entry file="file://$PROJECT_DIR$/applications/vue/controllers/api.py" />
+    <entry file="file://$PROJECT_DIR$/applications/vue/views/default/index.html" />
+    <entry file="file://$PROJECT_DIR$/applications/start/models/tables.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="459">
+          <caret line="27" column="60" selection-start-line="27" selection-start-column="60" selection-end-line="27" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/start/controllers/api.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="714">
+          <caret line="45" column="20" selection-start-line="45" selection-start-column="20" selection-end-line="45" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/start/static/js/default_index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="75" selection-start-line="74" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/applications/5/models/tables.py" />
+    <entry file="file://$PROJECT_DIR$/applications/5/controllers/api.py" />
+    <entry file="file://$PROJECT_DIR$/applications/5/static/js/default_index.js" />
+    <entry file="file://$PROJECT_DIR$/applications/5/static/css/myapp.css" />
+    <entry file="file://$PROJECT_DIR$/applications/5/views/default/index.html" />
+    <entry file="file://$PROJECT_DIR$/applications/start/views/default/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="481">
+          <caret line="48" column="22" lean-forward="true" selection-start-line="48" selection-start-column="22" selection-end-line="48" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
