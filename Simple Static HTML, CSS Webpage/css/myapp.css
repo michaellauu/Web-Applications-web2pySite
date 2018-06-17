@@ -1,0 +1,134 @@
+h1.main_title {
+    color: white;
+	font-size: 100%;
+	float: right;
+	padding: 10px;
+	margin-top: 100px;
+	
+}
+div.title {
+	height: 165px;
+	background-color: #092E5A;
+}
+img.ucsc {
+	height: 110px;
+	margin-left: 15px;
+	margin-top: 50px;
+    padding: 10px;
+}
+img.polarbear {
+    width: 100%;
+}
+div.newsheading {
+    padding: 20px;
+}
+h2.newsboxtext {
+	padding: 5px;
+	margin-left: 30px;
+}
+h4.newsboxtext2 {
+	padding: 5px;
+	margin-top: -5px;
+	margin-left: 30px;
+}
+p.newsboxauthor {
+	padding: 5px;
+	margin-left: 30px;
+}
+p.newstextinner {
+	padding: 5px;
+	margin-left: 20px;
+}
+p.newstextinner2 {
+	padding: 5px;
+	margin-right: 5px;
+}
+h3.newsheadingtext {
+	padding: 5px;
+	margin-top: 25px;
+	margin-left: -35px;
+	margin-bottom: 25px;
+}
+img.hackers {
+	margin-left: -30px;
+	width: 100%;
+}
+p.newsheadauthor {
+	padding: 5px;
+	margin-top: 20px;
+	margin-left: -30px;
+}
+p.newshack {
+	padding: 5px;
+	margin-top: 20px;
+	margin-left: -30px;
+	margin-right: 25px;	
+}
+h3.newsheadingtext2 {
+	padding: 5px;
+	margin-top: 25px;
+	margin-left: -35px;
+}
+img.vizwall {
+	margin-top: 25px;
+	margin-left: -25px;
+	width: 100%;
+}
+p.newsheadauthor2 {
+	padding: 5px;
+	margin-top: 20px;
+	margin-left: -30px;
+}
+p.vizwalltext {
+	padding: 5px;
+	margin-top: 20px;
+	margin-left: -30px;
+	margin-right: 25px;
+}
+div.bottom {
+	margin-top: 20px;
+	height: 165px;
+	background-color: #092E5A;
+}
+div.divline {
+	margin-bottom: 30px;
+    border: 1px solid #d3d3d3;
+}
+img.okinawa {
+	margin-left: 20px;
+	width: 85%;
+}
+h4.alumni {
+	padding: 5px;
+	margin-left: 15px;
+}
+p.alumnitext {
+	padding: 5px;
+	margin-left: 15px;
+	margin-right: 70px;
+}
+img.laird {
+	width: 85%;
+}
+h4.john {
+	padding: 5px;
+	margin-top: 16px;
+}
+p.johntext {
+	padding: 5px;
+	margin-right: 70px;
+}
+img.maitra {
+	width: 88%;
+	height: 34%;
+}
+h4.sid {
+	margin-left: -5px;
+	padding: 5px;
+	margin-top: 20px;
+}
+p.sidtext {
+	margin-left: -5px;
+	padding: 5px;
+	margin-right: 70px;
+}

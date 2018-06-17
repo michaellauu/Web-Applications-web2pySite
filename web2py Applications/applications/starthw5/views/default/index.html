@@ -1,0 +1,96 @@
+{{extend 'layout.html'}}
+
+{{block head}}
+
+<script src="{{=URL('static', 'js/vue.js')}}"></script>
+<script src="https://checkout.stripe.com/checkout.js"></script>
+<script>
+  var images_url = "{{=URL('api', 'get_images', user_signature=True, hash_vars=False)}}";
+  var users_url = "{{=URL('api', 'get_users', hash_vars=False)}}";
+  var user_images_url = "{{=URL('api', 'get_user_images', hash_vars=False)}}";
+  var add_image_url = "{{=URL('api', 'add_image', user_signature=True)}}";
+  var edit_price_url = "{{=URL('api', 'edit_price', user_signature=True)}}";
+  var purchase_url = "{{=URL('default', 'purchase', hmac_key=session.hmac_key)}}"
+</script>
+
+
+{{end}}
+
+<div class="main_content">
+
+  <div id="vue-div" class="display:none">
+    <div class="container padded">
+      <div class="image_space threequarters">
+        <!-- Left part of the page -->
+        {{if auth.user:}}
+            <div v-if="self_page">
+              <!-- Code to upload files, with control buttons -->
+              <div id="uploader_div" style="display:none">
+                Upload an image file: <input id="file_input" type="file" accept="image/jpeg">
+                <input step="0.01" type="number" v-model="price_input" placeholder="Enter in Price">
+              </div>
+
+              <button v-if="!is_uploading" v-on:click="open_uploader"><i class="fa fa-plus"></i></button>
+              <button v-if="is_uploading"  v-on:click="close_uploader">Cancel</button>
+              <button v-if="is_uploading"  v-on:click="upload_file">Submit</button>
+            </div>
+        {{else:}}
+        <p>Please sign in to use this site.</p>
+        {{pass}}
+		{{if auth.user:}}
+        <div class="image_container" v-if="!is_checkout">
+          <ul class="container">
+              <li v-for="image in images" class="card lifted padded quarter">
+              <img v-bind:src="image.image_url" height="200px" width="200px" class="padded"/>
+                <ul class="checkoutbtn">
+                  <p v-if="cart[image._idx] && !self_page">
+                  <button class="btn green"><i class="fa fa-shopping-cart"></i>
+                    <i class="fa fa-check"></i></button>
+                  </p>
+                  <p v-if="!cart[image._idx] && !self_page">
+                  <button class="btn green" v-on:click="add_to_cart(image._idx)"><i class="fa fa-shopping-cart"></i></button>
+                  </p>
+                </ul>
+                <p style="text-align:center;"> Price: $${image.price}</p>
+                <input v-if="self_page" type=”number” v-model="image.price" v-on:blur="price_edit(image._idx)"/>
+            </li>
+          </ul>
+        </div>
+
+        <div class="image_container" v-if="is_checkout">
+          <ul class="container">
+              <li v-for="image in cart" class="card lifted padded quarter">
+              <img v-bind:src="image.image_url" height="200px" width="200px" class="padded"/>
+              <p style="text-align:center;"> Price: $${image.price}</p>
+              </li>
+              <h4 style="text-align:right; margin-right:5px;"> Total Price: $${cart_total}</h4>
+              <p style="text-align:right;">
+                <button class="btn blue" v-on:click="goto(); pay();"><i class="fa fa-lg fa-credit-card"></i> Pay</button></p>
+          </ul>
+        </div>
+
+      </div>
+
+      <div class="user_space quarter right">
+        <!-- Right part of the page -->
+        <table class="fill" id="user_selector">
+          <tbody>
+            {{if auth.user:}}
+            <tr class="center">
+              <!-- This row is you; code for getting your own images, and for setting self_page -->
+              <p v-if="!is_checkout"><button class="btn blue" v-on:click="checkout_view"><i class="fa fa-shopping-cart"></i> Check Out</button></p>
+              <td v-on:click="get_images">{{=auth.user.first_name}} {{=auth.user.last_name}}</td>
+            </tr>
+            {{pass}}
+            <!-- Then, one row for each person. -->
+            <tr v-for="user in users">
+                <td v-on:click="get_user_images(user.user_email)">${user.first_name} ${user.last_name}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+	{{pass}}
+  </div>
+</div>
+  </div>
+<script src="{{=URL('static', 'js/default_index.js')}}"></script>
